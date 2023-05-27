@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Simprahafta3odev.Application.ViewModels.Category
 {
-    internal class VM_Create_Product
+    public class VM_Create_Category
     {
+        public string Name { get; set; }
+        public int Order { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public string CreatedBy { get; set; }
     }
 }

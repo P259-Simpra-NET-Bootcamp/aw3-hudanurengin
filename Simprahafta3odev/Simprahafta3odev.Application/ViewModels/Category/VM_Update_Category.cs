@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Simprahafta3odev.Application.ViewModels.Category
 {
-    internal class VM_Update_Category
+    public class VM_Update_Category
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Order { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public string CreatedBy { get; set; }
     }
 }
